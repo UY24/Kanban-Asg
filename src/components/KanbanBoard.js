@@ -111,64 +111,43 @@ function KanbanBoard() {
             <span className="spanDis">Display</span>
           </button>
           {displayOpen && (
-            // <ul className="dropdown-menu show">
-            //   <li>
-            //     <div>
-            //       <p className="dropdown-item">Grouping</p>
-            //       <select
-            //         value={groupingOption}
-            //         onChange={(e) => setGroupingOption(e.target.value)}
-            //         className="form-select m-2"
-            //       >
-            //         <option value="status">Status</option>
-            //         <option value="user">User</option>
-            //         <option value="priority">Priority</option>
-            //       </select>
-            //     </div>
-            //   </li>
-            //   <li>
-            //     <div>
-            //       <p className="dropdown-item">Ordering</p>
-            //       <select
-            //         value={sortingOption}
-            //         onChange={(e) => setSortingOption(e.target.value)}
-            //         className="form-select"
-            //       >
-            //         <option value="priority">Priority</option>
-            //         <option value="title">Title</option>
-            //       </select>
-            //     </div>
-            //   </li>
-            // </ul>
-            <ul className="custom-dropdown-menu show">
+            <li className="dropdown-menu show">
               <li>
-                <div className="custom-dropdown-item">
-                  <p className="custom-dropdown-label">Grouping</p>
-                  <select
-                    value={groupingOption}
-                    onChange={(e) => setGroupingOption(e.target.value)}
-                    className="custom-dropdown-select"
-                  >
-                    <option value="status">Status</option>
-                    <option value="user">User</option>
-                    <option value="priority">Priority</option>
-                  </select>
+                <div className="dropdown-item">
+                  <div className="dropdown-item-label">
+                    <p>Grouping</p>
+                  </div>
+                  <div>
+                    <select
+                      value={groupingOption}
+                      onChange={(e) => setGroupingOption(e.target.value)}
+                      className="form-select"
+                    >
+                      <option value="status">Status</option>
+                      <option value="user">User</option>
+                      <option value="priority">Priority</option>
+                    </select>
+                  </div>
                 </div>
               </li>
               <li>
-                <div className="custom-dropdown-item">
-                  <p className="custom-dropdown-label">Ordering</p>
-                  <select
-                    value={sortingOption}
-                    onChange={(e) => setSortingOption(e.target.value)}
-                    className="custom-dropdown-select"
-                  >
-                    <option value="priority">Priority</option>
-                    <option value="title">Title</option>
-                  </select>
+                <div className="dropdown-item">
+                  <div className="dropdown-item-label">
+                    <p>Ordering</p>
+                  </div>
+                  <div>
+                    <select
+                      value={sortingOption}
+                      onChange={(e) => setSortingOption(e.target.value)}
+                      className="form-select"
+                    >
+                      <option value="priority">Priority</option>
+                      <option value="title">Title</option>
+                    </select>
+                  </div>
                 </div>
               </li>
-            </ul>
+            </li>
           )}
         </div>
       </nav>
