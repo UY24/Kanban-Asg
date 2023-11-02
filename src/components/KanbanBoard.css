@@ -1,0 +1,172 @@
+.kanban-board {
+  font-family: Arial, sans-serif;
+  /* padding: 20px; */
+  background-color: #f7f7f7;
+}
+
+.custom-navbar {
+  background-color: #f8f9fa;
+  padding: 10px 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: #f9f9f9;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.spanDis{
+    margin-left: 10px;
+}
+
+.dropdown-menu {
+  
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  min-width: 120px;
+  z-index: 1;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 5px 15px;
+  display: block;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+
+.group-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.group {
+  margin: 10px;
+  flex: 1;
+  padding: 5px;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.group-title{
+    font-size: 18px;
+}
+.group-title-2{
+    display: flex;
+    align-items: center;
+}
+.group-title-2 h6{
+    font-size: 21px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header-options {
+  cursor: pointer;
+}
+.header-options > * {
+  margin-right: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card {
+  background-color: #fff;
+  border: 10px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  flex: 1 0 90%;
+  padding: 10px;
+}
+
+.card .card-body .title-section p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.card .card-body .feature-request {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.card .card-body .feature-request i {
+  margin-right: 5px;
+}
+
+.card .card-body .id {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.custom-dropdown-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.custom-dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.custom-dropdown-text {
+  margin: 0;
+}
+
+.custom-dropdown-select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+
+.custom-dropdown-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.custom-dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.custom-dropdown-label {
+  margin: 0;
+}
+
+.custom-dropdown-select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}

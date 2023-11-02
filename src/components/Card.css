@@ -1,0 +1,76 @@
+.custom-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.id {
+  font-weight: bold;
+}
+
+.user-img {
+  position: relative;
+}
+
+.user-img img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.available-status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.available-status.success {
+  background-color: #26ff00;
+}
+
+.available-status.secondary {
+  background-color: #808080;
+}
+
+.title-section {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.feature-request {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.circle.secondary {
+  background-color: #808080;
+}
+
+.tag {
+  margin: 0;
+}
